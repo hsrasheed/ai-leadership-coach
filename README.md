@@ -146,18 +146,18 @@ Follow these in every interaction:
 
 ## Setup by platform
 
-### ChatGPT
-- **Custom GPT (best):** Create a new GPT, paste the prompt as Instructions, upload your career artifacts as Knowledge files.
-- **Quick start:** Paste the prompt as your first message, then provide your artifacts in the follow-up.
+### VS Code + GitHub Copilot
+- Save the prompt as `.github/agents/leadership-coach.agent.md` in your workspace.
+- Place career artifacts in a `career-dev/` folder in the same workspace.
+- The agent will read your files directly using VS Code tools.
 
 ### Claude
 - **Projects (best):** Create a project, paste the prompt as Project Instructions, upload artifacts as Project Knowledge.
 - **Quick start:** Paste the prompt at the start of a conversation, provide artifacts inline.
 
-### VS Code + GitHub Copilot
-- Save the prompt as `.github/agents/leadership-coach.agent.md` in your workspace.
-- Place career artifacts in a `career-dev/` folder in the same workspace.
-- The agent will read your files directly using VS Code tools.
+### ChatGPT
+- **Custom GPT (best):** Create a new GPT, paste the prompt as Instructions, upload your career artifacts as Knowledge files.
+- **Quick start:** Paste the prompt as your first message, then provide your artifacts in the follow-up
 
 ### Gemini
 - Paste the prompt as the first message in a new conversation. Attach artifacts as files.
